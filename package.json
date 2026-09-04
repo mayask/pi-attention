@@ -1,0 +1,21 @@
+{
+  "name": "pi-attention",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Terminal-native attention notifications when Pi finishes working",
+  "keywords": [
+    "pi-package"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.ts"
+  },
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
