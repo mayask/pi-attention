@@ -18,11 +18,21 @@ Only interactive Pi sessions emit attention notifications. Set `PI_NOTIFICATIONS
 
 ## Install
 
+Install the Pi package from GitHub:
+
+```bash
+pi install git:github.com/mayask/pi-attention
+```
+
+Or install from a local checkout for development:
+
 ```bash
 pi install ~/src/pi-attention
 ```
 
-Then restart Pi or run `/reload` in an existing session.
+Choose one source to avoid loading the extension twice. Then restart Pi or run `/reload` in an existing session.
+
+The package manifest includes the `pi-package` keyword and declares `./src/index.ts` as its extension entrypoint. No skills, prompts, or themes are bundled. Gallery preview metadata is optional and omitted until a preview image or MP4 video is available.
 
 ## Test
 

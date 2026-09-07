@@ -4,6 +4,14 @@
   "private": true,
   "type": "module",
   "description": "Terminal-native attention notifications when Pi finishes working",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayask/pi-attention.git"
+  },
+  "homepage": "https://github.com/mayask/pi-attention#readme",
+  "bugs": {
+    "url": "https://github.com/mayask/pi-attention/issues"
+  },
   "keywords": [
     "pi-package"
   ],
