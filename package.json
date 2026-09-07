@@ -1,7 +1,6 @@
 {
   "name": "pi-attention",
   "version": "0.1.0",
-  "private": true,
   "type": "module",
   "description": "Terminal-native attention notifications when Pi finishes working",
   "repository": {
